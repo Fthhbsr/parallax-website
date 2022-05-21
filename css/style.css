@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Macondo&family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+.parallax {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.parallax-1 {
+    background-image: url(../img/bg.jpg);
+}
+
+.h1 {
+    color: white;
+    background-color: black;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline-offset: 2rem;
+    outline: .5rem inset purple;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    font-weight: 400;
+}
+
+.parallax-2 {
+    background-image: url(../img/bg1.jpg);
+}
+
+.parallax-2__img {
+    width: 30%;
+}
+
+.parallax-3 {
+    background-image: url(../img/bg2.jpg);
+}
+
+.parallax-4 {
+    background-image: url(../img/bg3.jpg);
+}
+
+.parallax-5 {
+    background-image: url(../img/bg4.jpg);
+}
+
+.footer {
+    text-align: center;
+    padding: 4rem;
+    line-height: 1.5rem;
+    font-language-override: 0.8;
+}
+
+.footer h2 {
+    margin-bottom: 2.5rem;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 890px) {
+    .h1 {
+        font-size: 2rem;
+        padding: 1rem;
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        outline-offset: 1rem;
+        outline: .5rem inset purple;
+        letter-spacing: .4rem;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 600px) {
+    .h1 {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-top-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        outline-offset: 0.5rem;
+        outline: .5rem inset purple;
+        letter-spacing: .3rem;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 420px) {
+    .h1 {
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 375px) {
+    .h1 {
+        max-width: 300px;
+    }
+}
